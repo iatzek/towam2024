@@ -8,8 +8,11 @@ namespace rktowam
         {
             double a , b, c;
 
+            Console.WriteLine("podaj a");
             a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj b");
             b = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj c");
             c = Double.Parse(Console.ReadLine());
 
 
