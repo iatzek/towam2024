@@ -17,6 +17,9 @@ namespace rktowam
                 double x2 = (-b + Math.Sqrt(delta)) / 2 * a;
 
                 Console.WriteLine("pierwiastki to {0} i {1}", x1, x2);
+            } else
+            {
+                Console.WriteLine("brak pierwiastkow rzeczywistych");
             }
 
         }
