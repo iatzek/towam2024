@@ -9,7 +9,7 @@ namespace rktowam
             double a , b, c;
 
             Console.WriteLine("ax^2+bx+c==0");
-            Console.WriteLine("podaj a");
+            Console.WriteLine("podaj a (z ax)");
             a = Double.Parse(Console.ReadLine());
             Console.WriteLine("podaj b");
             b = Double.Parse(Console.ReadLine());
